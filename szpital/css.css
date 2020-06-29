@@ -1,0 +1,13 @@
+body
+{
+    background: url(img/szpital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p
+{
+    font-family: Verdana;
+    font-size: 10px;
+    
+}
+ 

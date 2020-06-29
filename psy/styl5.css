@@ -1,0 +1,69 @@
+nav
+{
+	float: left;
+	background-color: #9692B1;
+	color: white;
+	 
+	height:750px;
+	width:20%;
+	}
+ 
+ 
+#gora
+{
+	background-color: #FFF4CC;
+	 
+	text-align:center;
+	height:300px;
+	width:80%;
+ float: left;
+	
+}
+#dol
+{
+	background-color: #DBCC93;
+	 
+	text-align:center;
+	height:450px;
+	width:80%;
+ float: left;
+	}
+footer
+{
+	clear:both;
+	background-color: #9692B1;
+	color: white;
+	text-align:right;
+}
+body
+{
+	font-family: Verdana;
+	margin:0;
+}
+header
+{
+	background-color: #9692B1;
+	color: white;
+	text-align:center;
+	height:80px;
+}
+a
+{
+	color:white;
+}
+#gora img
+{
+	width: 15%;
+	margin:20px;
+	
+}
+#dol img
+{
+	border: 4px solid #9692B1;
+	
+}
+#dol img:hover
+{
+	border:4px solid grey;
+	
+}

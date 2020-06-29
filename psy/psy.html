@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Galerja zdjęnć
+</title>
+<link rel="stylesheet" href="styl5.css">
+
+</head>
+<body>
+<header>
+<h1>Zdjęcia psów
+</h1>
+</header>
+<nav>
+<h2>Kategorie
+</h2>
+	<ul>
+		<li><a href="psy.html">Psy</a>
+		</li>
+		<li><a href="koty.html">Koty</a>
+		</li>
+		<li>Gryzonie
+		</li>
+		<li>Jaszczurki
+		</li>
+		<li>Inne zdjęcia
+		</li>
+	</ul>
+	<h4><a href="index.html">Powrót do strony głównej</a>
+	</h4>
+	
+</nav>
+<article>
+	<section id="gora">
+	<h1>Wybież zdęcie
+	</h1>
+	<img src="pies1.jpg" alt="pies1" id="1" onclick="clicked('1', 'pies1.jpg')" onmouseover="over('1', 'pies1-szary.jpg')" onmouseout="out('1', 'pies1.jpg')" >
+	<img src="pies2.jpg" alt="pies2" id="2" onclick="clicked('2', 'pies2.jpg')" onmouseover="over('2', 'pies2-szary.jpg')" onmouseout="out('2', 'pies2.jpg')" >
+	<img src="pies3.jpg" alt="pies3" id="3" onclick="clicked('3', 'pies3.jpg')" onmouseover="over('3', 'pies3-szary.jpg')" onmouseout="out('3', 'pies3.jpg')" >
+	 
+	</section>
+	<section id="dol">
+		<p><img src="pies1.jpg" alt="pies-duży" id="foto">
+		</p>
+	</section>
+</article>
+<footer>Galerję zdjęć opracował 83091119895
+</footer>
+	<script>
+		function over(id, img)
+		{
+			document.getElementById(id).src=img;
+		}
+		function clicked(id, img)
+		{
+			document.getElementById("foto").src=img;
+			over(id, img);
+		}
+		
+		function out(id, img)
+		{
+			document.getElementById(id).src=img;
+		}
+		
+	</script>
+</body>
+</html>
