@@ -1,0 +1,145 @@
+
+@media all and (max-width: 570px)
+{ 
+	.do
+	{
+		margin-left: 400px;
+	}
+}	
+	 
+@media all and (max-width: 540px)
+{ 
+	.do
+	{
+		margin-left: 350px;
+	}
+	
+    .media2
+	{
+		float: none;
+		margin-left: 170px;
+	}	 
+}
+@media all and (max-width: 490px)
+{
+	.do
+	{
+		margin-left: 340px;
+	}
+	
+    .media2
+	{
+		float: none;
+		margin-left: 140px;	 
+	}
+}
+
+@media all and (max-width: 459px)
+{
+	.do
+	{
+		margin-left: 330px;
+	}
+	
+	.www
+	{
+		margin-left:-5px;
+	}
+		 
+		 
+}
+
+@media all and (max-width: 451px)
+{
+	.do
+	{
+		margin-left: 220px;
+	}
+	
+	.www, .www1, .www2
+	{
+		margin-left: -20px;
+	}
+		
+	.adres, .adres1, .adres2
+	{
+			 
+		margin-left: -10px;
+	}
+		
+	.tylko
+	{
+		margin-left: 220px;
+		margin-top: -80px;
+	}				
+}
+
+@media all and (max-width: 420px)
+{
+	.logo
+	{
+		margin-top: -187px;	 
+	}
+
+	h1
+	{
+		margin-top: 120px;
+	}
+	
+	.media, .media1, .media2
+	{
+		float: right;
+	}
+}
+
+@media all and (max-width: 406px)
+{
+	.adres1
+	{
+		margin-top: 20px;
+	}
+}
+
+@media all and (min-width: 660px)
+{
+	body
+	{
+		height:510px;
+	}
+	
+	.wyslij
+	{
+		margin-left: -220px;
+	}
+}
+
+@media all and (min-width: 760px)
+{
+	 body
+	{
+		height:610px;
+	}
+	 
+
+@media all and (min-width: 860px)
+{
+	 body
+	{
+		height:710px;
+	} 
+}
+
+@media all and (min-width: 960px)
+{
+	 body
+	 {
+		 height:810px;
+	 }	 
+}
+ 
+
+
+
+ 
+
+

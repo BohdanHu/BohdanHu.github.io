@@ -1,0 +1,88 @@
+body
+{
+    margin: 0;
+    
+}
+
+header
+{
+	background-color: #829eb9;
+	height: 50px;
+	font-family: Arial;
+	text-align: center;
+}
+
+article
+{
+	float: left;
+	background-color: #b3c6d9;
+	height: 600px;
+	width: 25%;
+	   
+	
+}
+
+aside
+{
+	float: left;
+	background-color: #e0e9f1;
+	height: 600px;
+	width: 75%;
+	text-align: center;
+    background: url(znak.jpg) no-repeat;
+    background-size: cover;
+    
+ 
+}
+
+footer
+{
+	clear: both;
+	background-color: #829eb9;
+	font-family: Arial;
+	text-align: right;
+    
+}
+h3
+{
+	margin-right: 15px;
+}
+img
+{
+	margin: 30px;
+	padding: 10px;
+	border: 2px dashed #b3c6d9;
+}
+table
+{
+	margin: 30px;
+	width: 70%;
+	border: 2px solid #b3c6d9;
+	border-collapse: collapse;
+}
+tr:hover
+{
+	background-color: grey;
+	color: white;
+}
+th, td
+{
+	border: 2px solid #b3c6d9;
+}
+ h2
+ {
+	 margin-left: 10px;
+ }
+p
+{
+	margin: 30px;
+}
+
+
+@media all and (max-width: 750px)
+{
+	img
+	{
+		width: 70%;
+	}
+}

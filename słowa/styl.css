@@ -1,0 +1,65 @@
+body
+{
+	Georgia;
+}
+
+
+header, footer
+
+{
+	background-color: #824555;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.sec
+{
+	background-color: #a26475;
+	color: #fff;
+	width: 30%;
+	height: 300px;
+	float:left; 
+}
+#sec
+{
+	background-color: #a26475;
+	color: #fff;
+	width: 40%;
+	height: 300px;
+	text-align: right;
+	float:left;
+}
+aside
+{
+	background-color: #f0eae2;
+	padding: 20px;
+	clear: both;
+	
+}
+ table, td, th, tr
+ {
+	 border: 2px solid #69293a;
+	 padding: 7px;
+	 border-collapse: collapse;
+	 
+ }
+ ol
+ {
+	 list-style-type: square;
+ }
+ #a
+ {
+	 background-color: #red;
+	 
+ } #b
+ {
+	 background-color: #green;
+	 
+ } #c
+ {
+	 background-color: #blue;
+	 
+ }
+ 
+ 

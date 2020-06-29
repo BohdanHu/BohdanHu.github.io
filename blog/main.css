@@ -1,0 +1,33 @@
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+body
+{
+    background: url(nature.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+#foto
+{
+    width: 20 px;
+    height: 30 px;
+}

@@ -1,0 +1,36 @@
+aside, article
+{
+    float: left;
+}
+
+aside
+{
+   margin: 20px;  
+}
+article
+{
+   margin: 20px;  
+}
+footer
+{
+    clear: both;
+}
+header
+{
+     margin: -10px;
+    
+}
+body
+{
+    background: url(matematyka.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    
+     
+}
+ img
+    {
+        width: 100%;
+    }
+
+ 

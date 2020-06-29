@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baza danych biblioteki</title>
+<style>
+	body{
+		margin:0;
+		padding:0;
+	}
+	
+	.header
+	{
+		color: white;
+		background-color: #1B85AA;
+		padding: 10px;
+		text-align: center;
+		font-family: Arial;		
+	}
+	
+	.article
+	{
+		 width: 85%;
+		height: 650px;
+		float: left; 
+		text-align: center;
+	}
+	.aside
+	{
+		 color: white;
+		background-color: #4E9BB5;
+		padding: 16.9px;
+		text-align: center;
+		font-family: Arial;		
+		 width:15%;  
+		height: 650px;
+		float: right;
+		margin-top: -650px;
+	}
+	ul
+	{
+		padding-left: 5px;
+	}
+	
+	img:hover
+	{
+		box-shadow: 0 0 0 23px #1B85AA;
+		transition: 0.5s ;
+		 
+	}
+	@media all and (max-width: 760px)
+	{
+		.aside
+		{
+			margin-top: -250px;
+		 
+		}
+		
+	}
+	
+	@media all and (max-width: 570px)
+	{
+		
+		.aside
+		{
+			font-size: 0.8em;	 
+		 
+		}
+		img
+		{
+			width:: 65%;
+			height: 45%;
+		}
+		
+	}
+    
+    body
+{
+    background: url(biblioteka.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+</style>
+</head>
+<body>
+	<div class="container">
+	<div class="header"><h1>PROJEKT ROZBUDOWY BAZY DANYCH BIBLIOTEKI</h1></div>
+	<div class="article">
+	<img src="projekt.jpg" alt="baza danych biblioteki" style="border:2px;" vspace="52px" >
+	
+	</div><div class="aside">
+	<h3>PLIKI DO POBRANIA</h3>
+	<ul>
+	<li><a href="baza/kwerendy.txt">Kwerendy do bazy</a></li>
+	<li><a href="baza/eksport.sql">Eksport MySQL</a></li>
+	
+	</ul>
+	</div>
+	 
+	</div>
+</body>
+</html>

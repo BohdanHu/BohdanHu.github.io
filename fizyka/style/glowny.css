@@ -1,0 +1,60 @@
+
+body
+{
+		margin: 0;
+		padding:0;
+}
+header
+{
+		background-color:black;
+}
+
+
+article
+{
+	float: left;
+ margin: 5px;
+ }
+
+aside
+{
+	float: left;
+	background:	linear-gradient(to right, black, white, black);
+	width: 100%;
+	height: 500px;
+}
+
+footer
+{
+	clear:both;
+	text-align: right;
+	
+}
+body
+{
+	color:red;
+	 
+}
+a
+{
+	color: red;
+}
+.albert:hover
+ {
+	 display:none;
+	 
+ }
+ @media all and (width: 500px)
+ {
+	 .fiz
+	 {
+		 width:80%;
+		 height:40%;
+	 }
+ }
+
+body
+{
+    background: url(../grafiki/fizyka.jpg) no-repeat;
+    background-size: cover;
+}

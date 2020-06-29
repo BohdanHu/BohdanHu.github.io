@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Cukiernia</title>
+<script>
+
+function ksztalt()
+{
+	var a = document.getElementById("a").value;
+	
+	if(a=="")
+	{
+		document.getElementById("wynik").innerHTML = "Prosze uzupełnić.";
+	}
+	
+	else if(a==1)
+	{
+		document.getElementById("wynik").innerHTML = "  to jest banan";
+	}
+	else if(a==2)
+	{
+		document.getElementById("wynik").innerHTML = "  to jest lemon";
+	}
+	else if(a==3)
+	{
+		document.getElementById("wynik").innerHTML = "  to jest dynia";
+	}
+	else
+	{
+		document.getElementById("wynik").innerHTML = "  nie ma takiego";
+	}
+}
+
+
+
+function kolor()
+{
+	var a1 = document.getElementById("a1").value;
+	var b1 = document.getElementById("b1").value;
+	var c1 = document.getElementById("c1").value;
+	
+	
+	
+	
+	var kolor =  "<span style=\"background-color:rgb("+ a1 +"," + b1 +"," + c1 +");\">Wybiez</span>";
+	
+	 if(a1==""||b1==""||c1=="")
+	 {
+	document.getElementById("wynik2").innerHTML = "Wpisz RGB";
+	}
+	else if(a1<256 && b1<256 && c1<256)
+	{
+	 
+	document.getElementById("wynik1").innerHTML = kolor;
+	}
+	else
+	{
+	document.getElementById("wynik2").innerHTML = "Nie ma takiego koloru, RGB tylko od 0 do 255.";
+	}
+}
+
+
+
+
+
+
+</script>
+
+</head>
+<body>
+<style>
+
+body
+{
+    background: url(kwadraty.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+     
+}
+
+ 
+
+
+</style>
+	<h1>Cukiernia</h1>
+	
+	<img src="cukierki3.png" ><br><br><br>
+
+	Kształty:<br>
+	
+	1 - banan; 2 - lemon; 3 - dynia;<br>
+	
+	Podaj numer: <input type="number" id="a">
+	<input type="button" value="Wybiez" onclick="ksztalt()"
+	style="background-color:red; color: yellow;"> 
+
+	<div id="wynik"></div>
+	<br><br><br><br>
+	
+	Podaj RGB:<br>
+	R: <input type="number" id="a1">
+	G: <input type="number" id="b1">
+	B: <input type="number" id="c1">
+	<button onclick="kolor()" style="color: green;" ><span id="wynik1">Wybiez</span></button> <br><br>
+	
+	<div id="wynik2" ></div>
+
+
+ 
+</body>
+</html>

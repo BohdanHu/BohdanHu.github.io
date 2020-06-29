@@ -1,0 +1,265 @@
+body 
+{
+	font-family: Arial;
+	padding: 0;
+	margin: 0;	 
+	width:600px;
+	height: 400px; 
+	 
+}
+
+header
+{
+	background: url(img/fon1.jpg) no-repeat center top / cover; 
+	height: 87.5%; 
+	width: 100%;
+	 
+}	
+
+div 
+{
+	box-sizing: border-box;
+}
+
+.container
+{
+	width: 90.6%;
+	margin: 0 auto;
+}
+ 
+footer
+{
+	height: 12.5%;	
+	width: 100%;
+	background-color: white;  
+}
+
+h1
+{
+	float: left;
+	margin-top: 46px;
+	font-size: 36px;
+}
+ 
+.logo
+{
+	float: right;
+}
+  
+.na
+{
+	clear: both;
+	width: 240px;
+	font-size: 24px; 
+}
+
+.potnij
+{	
+	font-size: 18px;
+	float: left;
+	margin-top: 18px;
+}
+
+.freshm
+{
+	margin-top: -1px;
+	float: left; 
+	margin-left: 12px;
+}
+
+.divpotnij
+{
+	width: 240px;
+}
+
+.przezfresh
+{
+	 margin-top: -15px;
+	 float: left;
+}
+
+.potnij1
+{
+	 margin-top: -15px;
+}
+
+.go
+{
+	 float: left;
+	 margin-top: 2px;
+	 font-size: 18px;
+}
+ 
+.do
+{
+	background-color: #219e9f; 
+	width: 9em;
+	height: 9em;
+	border-radius: 50%;
+	font-family: Futura Md BT ;    
+	font-size: 10px;
+	color: white;
+	text-align: center;
+    margin-top: -65px;
+	margin-left: 445px;  
+}
+
+.do:hover
+{
+	transition: 0.5s;    
+	background-color: grey;
+}
+
+.dospan
+{
+	opacity: 0.8; 
+}
+ 
+.praca
+{
+	font-size: 12px;
+} 
+
+.komp
+{
+	 margin-top: -7px;	  
+}
+
+.wyslij
+{
+	width:189px;
+	height:42px;
+	border-radius: 20px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 8px;
+	background-color: #219e9f;
+	margin-top: 20px;
+	margin-right: 200px;
+	float: left;  
+}	
+
+.wyslij:hover
+{
+	transition: 0.5s;  
+	background-color: grey;
+}
+
+.tylko
+{
+	background-color: #219e9f;
+	float: left;  
+	width:  90px;
+	height:  90px;
+	border-radius: 50%;
+	font-family: Futura Bk BT ;  
+	font-size: 16.3px;
+	color: white;
+	text-align: center;
+	margin-top: -10px;
+	margin-right: 55px;
+	margin-left: -130px;
+}
+
+.tylko:hover
+{  
+	transition: 0.5s;     
+	background-color: grey;
+}
+
+.ptylko
+{
+	margin-top: 13px;
+} 
+ 
+.media1 
+{
+	float: left;
+	font-size: 12px; 
+} 
+.media2
+{
+	float: left;
+	margin-left: 70px; 
+	font-size: 12px; 	 
+}	
+.media3
+{
+	float: right;
+	font-size: 13px; 
+	  
+}
+
+.tel
+{ 
+	margin-left: 12px;
+	line-height: 10px; 
+}
+ 
+.adres:hover
+{
+	transition: 0.5s; 
+	text-decoration: underline; 
+	color:black;
+}
+.adres1:hover
+{
+	transition: 0.5s; 
+	text-decoration: underline; 
+	color:black;
+}
+ 
+.adres2:hover
+{
+	transition: 0.5s; 
+	text-decoration: underline; 
+	olor:black;
+}
+
+.www
+{
+	margin-top: 14px;
+	float: left;  
+}
+ 
+.adres
+{
+	margin-top: 18px;
+	float: left;  
+	text-decoration: none;
+	color: black;
+} 
+ 
+.www1
+{
+	margin-top: 14px;
+	float: left;  
+}
+ 
+.adres1
+{
+	margin-top: 18px;
+	float: left;  
+	text-decoration: none;
+	color: black;
+}
+
+.www2
+{
+	margin-top: 14px;
+	float: left;  
+}
+
+.adres2
+{
+	margin-top: 18px;
+	float: left;  
+	text-decoration: none;
+	color: black;
+}
+ 
+ .eraser
+{
+	clear: both;
+}
