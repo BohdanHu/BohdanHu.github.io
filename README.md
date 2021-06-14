@@ -1,2 +1,2 @@
 # BohdanHu.github.io
-CV and Portfolio
+ Portfolio
